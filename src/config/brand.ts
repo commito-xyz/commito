@@ -3,8 +3,8 @@
 // the token page and every explorer link derive from it. Anything that is not a 0x + 40 hex address is
 // treated as "not launched yet".
 
-/** Contract address of $COMMITO. "TBA" until the owner publishes it (typed string so a real 0x value drops in). */
-const CA: string = "TBA";
+/** Contract address of $COMMITO (live since 28 Oct 2026; COMMITO/COMMITO, 18 decimals, 1B supply). */
+const CA: string = "0x43ee81e17c960f8c453bed8d20ac6ceeed6b0e4f";
 
 /**
  * True once the domain points at this deployment. While false, the production *.vercel.app host is served
